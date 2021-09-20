@@ -17,7 +17,7 @@ docker run --rm --interactive --tty --volume ${PWD}:/app composer install
 docker run --rm --interactive --tty --volume %cd%:/app composer install
 ```
 
-### .Run
+### Run
 ```shell
 docker compose up
 ```
